@@ -11,9 +11,11 @@ function ShowMenu(){
    if(isMenu){
     //Menu icindekiler gösterilecek
     ShowMenuItems();
+    BTN.innerText="<";
    }else{
     //Menu icindekiler tekrar ekrana basılmasın diye icindekilerini sildik.
     DeleteContents();
+    BTN.innerText=">"
    }
    function ShowMenuItems(){
     let Items=["Ana Menü","Hakkımızda","Eğitimlerimiz","Bize Ulaşın","Sosyal Medyalarımız"];

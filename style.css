@@ -8,11 +8,11 @@
     flex-direction: row;
     justify-content: start;
 }
-#menu{
+.menu{
     width: 15%;
     height: 100vh;
     background-color: blueviolet;
-    display: flex; /* None Olduğunda Kapanır*/
+    display: none; /* Flex Olduğunda Açılır*/
     flex-direction: column;
     justify-content: center;
     border-right: 2px solid rgb(71, 21, 117);
@@ -34,4 +34,7 @@
     background-color: blueviolet;
     color: white;
     font-weight: bolder;
+}
+.menu-show{
+    display: flex;
 }
